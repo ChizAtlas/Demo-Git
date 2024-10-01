@@ -1,0 +1,61 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "Leadsengine dbo_FailedLeads",
+          "nodeLineageTag": "39c43b01-ebf1-4081-9558-8db042cb0e2e",
+          "size": {
+            "height": 516,
+            "width": 509
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 1069.9041095890411,
+            "y": 193.79452054794518
+          },
+          "nodeIndex": "_Measures",
+          "nodeLineageTag": "8550ecd7-8252-45df-81e5-e0baeade77d3",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 653.2465753424658,
+            "y": 161.05479452054797
+          },
+          "nodeIndex": "Date",
+          "nodeLineageTag": "e96dc8a0-95b8-4f22-b4ff-90904ad31b34",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 2
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 65.765765765765778,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

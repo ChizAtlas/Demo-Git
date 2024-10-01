@@ -1,0 +1,336 @@
+{
+  "config": "{\"version\":\"5.50\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2},\"customTheme\":{\"name\":\"MyTheme2382214263346092.json\",\"version\":\"5.50\",\"type\":1}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "publicCustomVisuals": [],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Background_template508217999686041.svg",
+            "path": "Background_template508217999686041.svg",
+            "type": 100
+          },
+          {
+            "name": "MyTheme2382214263346092.json",
+            "path": "MyTheme2382214263346092.json",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU08",
+            "path": "BaseThemes/CY23SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"relationships\":[{\"source\":\"136b0627a428b515e0ba\",\"target\":\"73dbd00e1fcb5bf5139f\",\"type\":3},{\"source\":\"64c4cf4dab7de643a849\",\"target\":\"ebcf3457a348e3b180e3\",\"type\":3},{\"source\":\"64c4cf4dab7de643a849\",\"target\":\"53e4663df2bf701cc23e\",\"type\":3},{\"source\":\"64c4cf4dab7de643a849\",\"target\":\"5a64e3093af78c00989b\",\"type\":3},{\"source\":\"64c4cf4dab7de643a849\",\"target\":\"73dbd00e1fcb5bf5139f\",\"type\":3},{\"source\":\"64c4cf4dab7de643a849\",\"target\":\"d0a49a74ca27df0dbee8\",\"type\":3},{\"source\":\"64c4cf4dab7de643a849\",\"target\":\"e74a6569fcbf58b3b63e\",\"type\":3},{\"source\":\"64c4cf4dab7de643a849\",\"target\":\"2dbfe20fa09a67694011\",\"type\":3},{\"source\":\"64c4cf4dab7de643a849\",\"target\":\"28f3561627d68cb07f98\",\"type\":3},{\"source\":\"64c4cf4dab7de643a849\",\"target\":\"b13145d83fad4fd8d335\",\"type\":3},{\"source\":\"64c4cf4dab7de643a849\",\"target\":\"136b0627a428b515e0ba\",\"type\":3},{\"source\":\"64c4cf4dab7de643a849\",\"target\":\"531213a4801f562b8940\",\"type\":3},{\"source\":\"ebcf3457a348e3b180e3\",\"target\":\"53e4663df2bf701cc23e\",\"type\":1},{\"source\":\"ebcf3457a348e3b180e3\",\"target\":\"5a64e3093af78c00989b\",\"type\":1},{\"source\":\"ebcf3457a348e3b180e3\",\"target\":\"73dbd00e1fcb5bf5139f\",\"type\":1},{\"source\":\"ebcf3457a348e3b180e3\",\"target\":\"e74a6569fcbf58b3b63e\",\"type\":1},{\"source\":\"53e4663df2bf701cc23e\",\"target\":\"ebcf3457a348e3b180e3\",\"type\":1},{\"source\":\"53e4663df2bf701cc23e\",\"target\":\"5a64e3093af78c00989b\",\"type\":1},{\"source\":\"53e4663df2bf701cc23e\",\"target\":\"73dbd00e1fcb5bf5139f\",\"type\":1},{\"source\":\"53e4663df2bf701cc23e\",\"target\":\"d0a49a74ca27df0dbee8\",\"type\":3},{\"source\":\"53e4663df2bf701cc23e\",\"target\":\"e74a6569fcbf58b3b63e\",\"type\":1},{\"source\":\"5a64e3093af78c00989b\",\"target\":\"53e4663df2bf701cc23e\",\"type\":1},{\"source\":\"5a64e3093af78c00989b\",\"target\":\"ebcf3457a348e3b180e3\",\"type\":1},{\"source\":\"5a64e3093af78c00989b\",\"target\":\"b13145d83fad4fd8d335\",\"type\":1},{\"source\":\"5a64e3093af78c00989b\",\"target\":\"2dbfe20fa09a67694011\",\"type\":1},{\"source\":\"5a64e3093af78c00989b\",\"target\":\"73dbd00e1fcb5bf5139f\",\"type\":1},{\"source\":\"73dbd00e1fcb5bf5139f\",\"target\":\"5a64e3093af78c00989b\",\"type\":1},{\"source\":\"73dbd00e1fcb5bf5139f\",\"target\":\"53e4663df2bf701cc23e\",\"type\":1},{\"source\":\"73dbd00e1fcb5bf5139f\",\"target\":\"ebcf3457a348e3b180e3\",\"type\":1},{\"source\":\"73dbd00e1fcb5bf5139f\",\"target\":\"b13145d83fad4fd8d335\",\"type\":3},{\"source\":\"73dbd00e1fcb5bf5139f\",\"target\":\"2dbfe20fa09a67694011\",\"type\":3}],\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Background template.svg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Background_template508217999686041.svg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Failed Leads Overview",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "8cf9deaa547a21471f72",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"136b0627a428b515e0ba\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":110.580204778157,\"z\":5000,\"width\":223.0034129692833,\"height\":54.06143344709898,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Date.Month\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Month\"},\"Name\":\"Date.Month\",\"NativeReferenceName\":\"Month\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}],\"items\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 54.06,
+          "width": 223.00,
+          "x": 0.00,
+          "y": 110.58,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"234602541d2248be8608\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":47.303754266211605,\"z\":0,\"width\":223.0034129692833,\"height\":353.24232081911265,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#DFE4E7'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 353.24,
+          "width": 223.00,
+          "x": 0.00,
+          "y": 47.30,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"28f3561627d68cb07f98\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":337.8839590443686,\"z\":1000,\"width\":223.0034129692833,\"height\":57.13310580204778,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Leadsengine dbo_Leads.SourceSystem\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"SourceSystem\"},\"Name\":\"Leadsengine dbo_Leads.SourceSystem\",\"NativeReferenceName\":\"SourceSystem\"}]},\"syncGroup\":{\"groupName\":\"SourceSystem\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}],\"items\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 57.13,
+          "width": 223.00,
+          "x": 0.00,
+          "y": 337.88,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"2dbfe20fa09a67694011\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":232.83276450511946,\"z\":12000,\"width\":223.0034129692833,\"height\":53.44709897610922,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Leadsengine dbo_FailedLeads.LeadName\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"LeadName\"},\"Name\":\"Leadsengine dbo_FailedLeads.LeadName\",\"NativeReferenceName\":\"LeadName\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"items\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 53.45,
+          "width": 223.00,
+          "x": 0.00,
+          "y": 232.83,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"531213a4801f562b8940\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":47.303754266211605,\"z\":3000,\"width\":223.0034129692833,\"height\":71.87713310580205,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Date.YEAR\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Year\"},\"Name\":\"Date.YEAR\",\"NativeReferenceName\":\"Year\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Year\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"2024L\"}}]]}}}]}}}}],\"items\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Calendar'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 71.88,
+          "width": 223.00,
+          "x": 0.00,
+          "y": 47.30,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"53e4663df2bf701cc23e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":492.76529821843536,\"y\":214.15956622773044,\"z\":10000,\"width\":258.7761425251743,\"height\":170.53446940356315,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Y\":[{\"queryRef\":\"_Measures.Count Failed Leads\"}],\"Category\":[{\"queryRef\":\"Leadsengine dbo_FailedLeads.SalesOrganization\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"SalesOrganization\"},\"Name\":\"Leadsengine dbo_FailedLeads.SalesOrganization\",\"NativeReferenceName\":\"SalesOrganization\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"},\"Name\":\"_Measures.Count Failed Leads\",\"NativeReferenceName\":\"Count Failed Leads\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"end\":{\"expr\":{\"Literal\":{\"Value\":\"1000D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Failed Leads by Sales Organization'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 170.53,
+          "width": 258.78,
+          "x": 492.77,
+          "y": 214.16,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"5a64e3093af78c00989b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":234.08866995073893,\"y\":213.69458128078819,\"z\":11000,\"width\":239.4088669950739,\"height\":171.13300492610838,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Leadsengine dbo_FailedLeads.SourceSystem\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Count Failed Leads\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"SourceSystem\"},\"Name\":\"Leadsengine dbo_FailedLeads.SourceSystem\",\"NativeReferenceName\":\"SourceSystem\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"},\"Name\":\"_Measures.Count Failed Leads\",\"NativeReferenceName\":\"Count Failed Leads\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"end\":{\"expr\":{\"Literal\":{\"Value\":\"2000D\"}}}}}],\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Failed Leads by Source System'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 171.13,
+          "width": 239.41,
+          "x": 234.09,
+          "y": 213.69,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"64c4cf4dab7de643a849\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":395.25773195876286,\"z\":2000,\"width\":1279.7938144329896,\"height\":324.7422680412371,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Leadsengine dbo_Leads.LeadName\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.SourceSystem\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.BusinessLine\"},{\"queryRef\":\"Leadsengine dbo_Leads.ContactId\"},{\"queryRef\":\"Leadsengine dbo_Leads.ProductId\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.SerialNumber\"},{\"queryRef\":\"Leadsengine dbo_Leads.T_UpdatedDateLOG\"},{\"queryRef\":\"Leadsengine dbo_Leads.Division\"},{\"queryRef\":\"Leadsengine dbo_Leads.CountryRegion\"},{\"queryRef\":\"Leadsengine dbo_Leads.SalesOrganization\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.SourceSystemId\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.Email\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.Mobile\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.Phone\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.ErrorMessage\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.SapAccountId\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.Note\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"LeadName\"},\"Name\":\"Leadsengine dbo_Leads.LeadName\",\"NativeReferenceName\":\"LeadName\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"ContactId\"},\"Name\":\"Leadsengine dbo_Leads.ContactId\",\"NativeReferenceName\":\"ContactId\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"ProductId\"},\"Name\":\"Leadsengine dbo_Leads.ProductId\",\"NativeReferenceName\":\"ProductId\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"T_UpdatedDateLOG\"},\"Name\":\"Leadsengine dbo_Leads.T_UpdatedDateLOG\",\"NativeReferenceName\":\"LOG Date\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Division\"},\"Name\":\"Leadsengine dbo_Leads.Division\",\"NativeReferenceName\":\"Division\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"CountryRegion\"},\"Name\":\"Leadsengine dbo_Leads.CountryRegion\",\"NativeReferenceName\":\"LandCode\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"SalesOrganization\"},\"Name\":\"Leadsengine dbo_Leads.SalesOrganization\",\"NativeReferenceName\":\"Sales Org\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"SourceSystem\"},\"Name\":\"Leadsengine dbo_FailedLeads.SourceSystem\",\"NativeReferenceName\":\"SourceSystem\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"SourceSystemId\"},\"Name\":\"Leadsengine dbo_FailedLeads.SourceSystemId\",\"NativeReferenceName\":\"SourceSystemId\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"BusinessLine\"},\"Name\":\"Leadsengine dbo_FailedLeads.BusinessLine\",\"NativeReferenceName\":\"BusinessLine\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Email\"},\"Name\":\"Leadsengine dbo_FailedLeads.Email\",\"NativeReferenceName\":\"Email\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Mobile\"},\"Name\":\"Leadsengine dbo_FailedLeads.Mobile\",\"NativeReferenceName\":\"Mobile\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Phone\"},\"Name\":\"Leadsengine dbo_FailedLeads.Phone\",\"NativeReferenceName\":\"Phone\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"ErrorMessage\"},\"Name\":\"Leadsengine dbo_FailedLeads.ErrorMessage\",\"NativeReferenceName\":\"ErrorMessage\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"SerialNumber\"},\"Name\":\"Leadsengine dbo_FailedLeads.SerialNumber\",\"NativeReferenceName\":\"Serial Number\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"SapAccountId\"},\"Name\":\"Leadsengine dbo_FailedLeads.SapAccountId\",\"NativeReferenceName\":\"SapAccountId\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Note\"},\"Name\":\"Leadsengine dbo_FailedLeads.Note\",\"NativeReferenceName\":\"Note\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"LeadName\"}}}]},\"columnProperties\":{\"Leadsengine dbo_Leads.T_UpdatedDateLOG\":{\"displayName\":\"LOG Date\"},\"Leadsengine dbo_Leads.CountryRegion\":{\"displayName\":\"LandCode\"},\"Leadsengine dbo_Leads.SalesOrganization\":{\"displayName\":\"Sales Org\"},\"Leadsengine dbo_FailedLeads.SerialNumber\":{\"displayName\":\"Serial Number\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"382.37511883563633D\"}}}},\"selector\":{\"metadata\":\"Leadsengine dbo_Leads.LeadName\"}},{\"properties\":{},\"selector\":{\"metadata\":\"Leadsengine dbo_Leads.SalesOrganization\"}},{\"properties\":{},\"selector\":{\"metadata\":\"Leadsengine dbo_Leads.CountryRegion\"}},{\"properties\":{},\"selector\":{\"metadata\":\"Leadsengine dbo_Leads.Division\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"261.52238793702537D\"}}}},\"selector\":{\"metadata\":\"Leadsengine dbo_FailedLeads.SourceSystemId\"}},{\"properties\":{},\"selector\":{\"metadata\":\"Leadsengine dbo_FailedLeads.Note\"}}],\"grid\":[{\"properties\":{\"gridHorizontal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"gridVertical\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 324.74,
+          "width": 1279.79,
+          "x": 0.00,
+          "y": 395.26,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"73dbd00e1fcb5bf5139f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1011.7241379310345,\"y\":213.69458128078819,\"z\":7000,\"width\":267.7832512315271,\"height\":180.88669950738915,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Date.Month\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Count Failed Leads\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Month\"},\"Name\":\"Date.Month\",\"NativeReferenceName\":\"Month\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"},\"Name\":\"_Measures.Count Failed Leads\",\"NativeReferenceName\":\"Count Failed Leads\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Failed Leads by Month'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 180.89,
+          "width": 267.78,
+          "x": 1011.72,
+          "y": 213.69,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"a3451f46650ffeb08883\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":283.20819112627987,\"z\":14000,\"width\":223.0034129692833,\"height\":54.67576791808874,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Leadsengine dbo_FailedLeads.BusinessLine\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"BusinessLine\"},\"Name\":\"Leadsengine dbo_FailedLeads.BusinessLine\",\"NativeReferenceName\":\"BusinessLine\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"items\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 54.68,
+          "width": 223.00,
+          "x": 0.00,
+          "y": 283.21,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"b13145d83fad4fd8d335\",\"layouts\":[{\"id\":0,\"position\":{\"x\":520.4926108374384,\"y\":75.36945812807882,\"z\":4000,\"width\":195.96059113300493,\"height\":86.00985221674877,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"kpi\",\"projections\":{\"TrendLine\":[{\"queryRef\":\"Date.Year\"}],\"Indicator\":[{\"queryRef\":\"_Measures.Count Failed Leads\"}],\"Goal\":[{\"queryRef\":\"_Measures.Count Leads PY\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Year\"},\"Name\":\"Date.Year\",\"NativeReferenceName\":\"Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"},\"Name\":\"_Measures.Count Failed Leads\",\"NativeReferenceName\":\"Count Failed Leads\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Leads PY\"},\"Name\":\"_Measures.Count Leads PY\",\"NativeReferenceName\":\"Count Leads PY\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"status\":[{\"properties\":{\"badColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1AAB40'\"}}}}},\"goodColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D64554'\"}}}}}}}],\"goals\":[{\"properties\":{\"goalText\":{\"expr\":{\"Literal\":{\"Value\":\"'Previous Period'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"goalFontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"indicator\":[{\"properties\":{\"showIcon\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"22D\"}}}}}],\"trendline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Failed Leads vs PP'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 86.01,
+          "width": 195.96,
+          "x": 520.49,
+          "y": 75.37,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"d0a49a74ca27df0dbee8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":9000,\"width\":332.35494880546077,\"height\":47.303754266211605,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"C4C: Failed Leads Report\",\"textStyle\":{\"fontSize\":\"20pt\",\"color\":\"#ffffff\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 47.30,
+          "width": 332.35,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"dd8954861d687fcfe601\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":164.64163822525597,\"z\":13000,\"width\":223.0034129692833,\"height\":68.19112627986348,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Leadsengine dbo_FailedLeads.Division\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Division\"},\"Name\":\"Leadsengine dbo_FailedLeads.Division\",\"NativeReferenceName\":\"Division\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"items\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Company'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 68.19,
+          "width": 223.00,
+          "x": 0.00,
+          "y": 164.64,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"e74a6569fcbf58b3b63e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":251.82266009852216,\"y\":75.36945812807882,\"z\":6000,\"width\":193.30049261083744,\"height\":86.00985221674877,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Failed Leads ALL\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Failed Leads ALL\"},\"Name\":\"_Measures.Failed Leads ALL\",\"NativeReferenceName\":\"Failed Leads ALL\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Failed Leads ALL\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"22D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Failed Leads'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#054E5A'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 86.01,
+          "width": 193.30,
+          "x": 251.82,
+          "y": 75.37,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"ebcf3457a348e3b180e3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":766.4136328427576,\"y\":214.15956622773044,\"z\":8000,\"width\":222.09140201394268,\"height\":170.53446940356315,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Y\":[{\"queryRef\":\"_Measures.Count Failed Leads\"}],\"Category\":[{\"queryRef\":\"Leadsengine dbo_FailedLeads.ProductId\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"ProductId\"},\"Name\":\"Leadsengine dbo_FailedLeads.ProductId\",\"NativeReferenceName\":\"ProductId\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"},\"Name\":\"_Measures.Count Failed Leads\",\"NativeReferenceName\":\"Count Failed Leads\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"maxMarginFactor\":{\"expr\":{\"Literal\":{\"Value\":\"50L\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Failed Leads by Product Id'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 170.53,
+          "width": 222.09,
+          "x": 766.41,
+          "y": 214.16,
+          "z": 8000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"relationships\":[{\"source\":\"2b8d36cd6a33e4c76127\",\"target\":\"c0d0ea33b212454d4647\",\"type\":3},{\"source\":\"60fd73aca0dca39934be\",\"target\":\"bc444f28d998baf4d258\",\"type\":3},{\"source\":\"60fd73aca0dca39934be\",\"target\":\"ddffee1e9c5dc4fd0edd\",\"type\":3},{\"source\":\"60fd73aca0dca39934be\",\"target\":\"924f1d186433582a282a\",\"type\":3},{\"source\":\"60fd73aca0dca39934be\",\"target\":\"c0d0ea33b212454d4647\",\"type\":3},{\"source\":\"60fd73aca0dca39934be\",\"target\":\"b1d82c329103fe82e339\",\"type\":3},{\"source\":\"60fd73aca0dca39934be\",\"target\":\"3d78e682d513071ddb70\",\"type\":3},{\"source\":\"60fd73aca0dca39934be\",\"target\":\"de1331141f11024c4498\",\"type\":3},{\"source\":\"60fd73aca0dca39934be\",\"target\":\"9f0941e4e93c7a969ed6\",\"type\":3},{\"source\":\"60fd73aca0dca39934be\",\"target\":\"ebe805d428339b3b3baf\",\"type\":3},{\"source\":\"60fd73aca0dca39934be\",\"target\":\"2b8d36cd6a33e4c76127\",\"type\":3},{\"source\":\"60fd73aca0dca39934be\",\"target\":\"b22cadf09bd0a442f9fc\",\"type\":3},{\"source\":\"bc444f28d998baf4d258\",\"target\":\"ddffee1e9c5dc4fd0edd\",\"type\":1},{\"source\":\"bc444f28d998baf4d258\",\"target\":\"924f1d186433582a282a\",\"type\":1},{\"source\":\"bc444f28d998baf4d258\",\"target\":\"c0d0ea33b212454d4647\",\"type\":1},{\"source\":\"bc444f28d998baf4d258\",\"target\":\"3d78e682d513071ddb70\",\"type\":1},{\"source\":\"ddffee1e9c5dc4fd0edd\",\"target\":\"bc444f28d998baf4d258\",\"type\":1},{\"source\":\"ddffee1e9c5dc4fd0edd\",\"target\":\"924f1d186433582a282a\",\"type\":1},{\"source\":\"ddffee1e9c5dc4fd0edd\",\"target\":\"c0d0ea33b212454d4647\",\"type\":1},{\"source\":\"ddffee1e9c5dc4fd0edd\",\"target\":\"b1d82c329103fe82e339\",\"type\":3},{\"source\":\"ddffee1e9c5dc4fd0edd\",\"target\":\"3d78e682d513071ddb70\",\"type\":1},{\"source\":\"924f1d186433582a282a\",\"target\":\"ddffee1e9c5dc4fd0edd\",\"type\":1},{\"source\":\"924f1d186433582a282a\",\"target\":\"bc444f28d998baf4d258\",\"type\":1},{\"source\":\"924f1d186433582a282a\",\"target\":\"ebe805d428339b3b3baf\",\"type\":1},{\"source\":\"924f1d186433582a282a\",\"target\":\"de1331141f11024c4498\",\"type\":1},{\"source\":\"924f1d186433582a282a\",\"target\":\"c0d0ea33b212454d4647\",\"type\":1},{\"source\":\"c0d0ea33b212454d4647\",\"target\":\"924f1d186433582a282a\",\"type\":1},{\"source\":\"c0d0ea33b212454d4647\",\"target\":\"ddffee1e9c5dc4fd0edd\",\"type\":1},{\"source\":\"c0d0ea33b212454d4647\",\"target\":\"bc444f28d998baf4d258\",\"type\":1},{\"source\":\"c0d0ea33b212454d4647\",\"target\":\"ebe805d428339b3b3baf\",\"type\":3},{\"source\":\"c0d0ea33b212454d4647\",\"target\":\"de1331141f11024c4498\",\"type\":3}],\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Background template.svg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Background_template508217999686041.svg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]},\"visibility\":1}",
+      "displayName": "Failed Leads Overview",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSectionb5c9f1307dccba2c867b",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"2b8d36cd6a33e4c76127\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":110.580204778157,\"z\":5000,\"width\":223.0034129692833,\"height\":54.06143344709898,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Date.Month\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Month\"},\"Name\":\"Date.Month\",\"NativeReferenceName\":\"Month\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}],\"items\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 54.06,
+          "width": 223.00,
+          "x": 0.00,
+          "y": 110.58,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"3d78e682d513071ddb70\",\"layouts\":[{\"id\":0,\"position\":{\"x\":258.63481228668934,\"y\":136.38225255972682,\"z\":6000,\"width\":148.05460750853243,\"height\":70.03412969283276,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Failed Leads ALL\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Failed Leads ALL\"},\"Name\":\"_Measures.Failed Leads ALL\",\"NativeReferenceName\":\"Failed Leads ALL\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Failed Leads ALL\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"22D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Failed Leads'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 70.03,
+          "width": 148.05,
+          "x": 258.63,
+          "y": 136.38,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"52fdcd2c25a0e9086390\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":47.303754266211605,\"z\":0,\"width\":223.0034129692833,\"height\":353.24232081911265,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#DFE4E7'\"}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 353.24,
+          "width": 223.00,
+          "x": 0.00,
+          "y": 47.30,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"60fd73aca0dca39934be\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":395.25773195876286,\"z\":2000,\"width\":1279.7938144329896,\"height\":324.7422680412371,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Leadsengine dbo_Leads.LeadName\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.SourceSystem\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.BusinessLine\"},{\"queryRef\":\"Leadsengine dbo_Leads.ContactId\"},{\"queryRef\":\"Leadsengine dbo_Leads.ProductId\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.SerialNumber\"},{\"queryRef\":\"Leadsengine dbo_Leads.T_UpdatedDateLOG\"},{\"queryRef\":\"Leadsengine dbo_Leads.Division\"},{\"queryRef\":\"Leadsengine dbo_Leads.CountryRegion\"},{\"queryRef\":\"Leadsengine dbo_Leads.SalesOrganization\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.SourceSystemId\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.Email\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.Mobile\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.Phone\"},{\"queryRef\":\"Leadsengine dbo_FailedLeads.ErrorMessage\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"LeadName\"},\"Name\":\"Leadsengine dbo_Leads.LeadName\",\"NativeReferenceName\":\"LeadName\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"ContactId\"},\"Name\":\"Leadsengine dbo_Leads.ContactId\",\"NativeReferenceName\":\"ContactId\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"ProductId\"},\"Name\":\"Leadsengine dbo_Leads.ProductId\",\"NativeReferenceName\":\"ProductId\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"T_UpdatedDateLOG\"},\"Name\":\"Leadsengine dbo_Leads.T_UpdatedDateLOG\",\"NativeReferenceName\":\"LOG Date\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Division\"},\"Name\":\"Leadsengine dbo_Leads.Division\",\"NativeReferenceName\":\"Division\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"CountryRegion\"},\"Name\":\"Leadsengine dbo_Leads.CountryRegion\",\"NativeReferenceName\":\"LandCode\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"SalesOrganization\"},\"Name\":\"Leadsengine dbo_Leads.SalesOrganization\",\"NativeReferenceName\":\"Sales Org\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"SourceSystem\"},\"Name\":\"Leadsengine dbo_FailedLeads.SourceSystem\",\"NativeReferenceName\":\"SourceSystem\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"SourceSystemId\"},\"Name\":\"Leadsengine dbo_FailedLeads.SourceSystemId\",\"NativeReferenceName\":\"SourceSystemId\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"BusinessLine\"},\"Name\":\"Leadsengine dbo_FailedLeads.BusinessLine\",\"NativeReferenceName\":\"BusinessLine\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Email\"},\"Name\":\"Leadsengine dbo_FailedLeads.Email\",\"NativeReferenceName\":\"Email\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Mobile\"},\"Name\":\"Leadsengine dbo_FailedLeads.Mobile\",\"NativeReferenceName\":\"Mobile\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Phone\"},\"Name\":\"Leadsengine dbo_FailedLeads.Phone\",\"NativeReferenceName\":\"Phone\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"ErrorMessage\"},\"Name\":\"Leadsengine dbo_FailedLeads.ErrorMessage\",\"NativeReferenceName\":\"ErrorMessage\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"SerialNumber\"},\"Name\":\"Leadsengine dbo_FailedLeads.SerialNumber\",\"NativeReferenceName\":\"Serial Number\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"LeadName\"}}}]},\"columnProperties\":{\"Leadsengine dbo_Leads.T_UpdatedDateLOG\":{\"displayName\":\"LOG Date\"},\"Leadsengine dbo_Leads.CountryRegion\":{\"displayName\":\"LandCode\"},\"Leadsengine dbo_Leads.SalesOrganization\":{\"displayName\":\"Sales Org\"},\"Leadsengine dbo_FailedLeads.SerialNumber\":{\"displayName\":\"Serial Number\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"382.37511883563633D\"}}}},\"selector\":{\"metadata\":\"Leadsengine dbo_Leads.LeadName\"}},{\"properties\":{},\"selector\":{\"metadata\":\"Leadsengine dbo_Leads.SalesOrganization\"}},{\"properties\":{},\"selector\":{\"metadata\":\"Leadsengine dbo_Leads.CountryRegion\"}},{\"properties\":{},\"selector\":{\"metadata\":\"Leadsengine dbo_Leads.Division\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"261.52238793702537D\"}}}},\"selector\":{\"metadata\":\"Leadsengine dbo_FailedLeads.SourceSystemId\"}}],\"grid\":[{\"properties\":{\"gridHorizontal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"gridVertical\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 324.74,
+          "width": 1279.79,
+          "x": 0.00,
+          "y": 395.26,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"924f1d186433582a282a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":446.0068259385666,\"y\":53.44709897610922,\"z\":11000,\"width\":260.4778156996587,\"height\":170.78498293515358,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Leadsengine dbo_FailedLeads.SourceSystem\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Count Failed Leads\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"SourceSystem\"},\"Name\":\"Leadsengine dbo_FailedLeads.SourceSystem\",\"NativeReferenceName\":\"SourceSystem\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"},\"Name\":\"_Measures.Count Failed Leads\",\"NativeReferenceName\":\"Count Failed Leads\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"end\":{\"expr\":{\"Literal\":{\"Value\":\"2000D\"}}}}}],\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Failed Leads by Source System'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 170.78,
+          "width": 260.48,
+          "x": 446.01,
+          "y": 53.45,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"9f0941e4e93c7a969ed6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":337.8839590443686,\"z\":1000,\"width\":223.0034129692833,\"height\":57.13310580204778,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Leadsengine dbo_Leads.SourceSystem\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"SourceSystem\"},\"Name\":\"Leadsengine dbo_Leads.SourceSystem\",\"NativeReferenceName\":\"SourceSystem\"}]},\"syncGroup\":{\"groupName\":\"SourceSystem\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}],\"items\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 57.13,
+          "width": 223.00,
+          "x": 0.00,
+          "y": 337.88,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"b1d82c329103fe82e339\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":9000,\"width\":332.35494880546077,\"height\":47.303754266211605,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"C4C: Failed Leads Report\",\"textStyle\":{\"fontSize\":\"20pt\",\"color\":\"#ffffff\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 47.30,
+          "width": 332.35,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"b22cadf09bd0a442f9fc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":47.303754266211605,\"z\":3000,\"width\":223.0034129692833,\"height\":71.87713310580205,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Date.YEAR\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Year\"},\"Name\":\"Date.YEAR\",\"NativeReferenceName\":\"Year\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Year\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"2024L\"}}]]}}}]}}}}],\"items\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Calendar'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 71.88,
+          "width": 223.00,
+          "x": 0.00,
+          "y": 47.30,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"bc444f28d998baf4d258\",\"layouts\":[{\"id\":0,\"position\":{\"x\":969.4197952218431,\"y\":51.60409556313993,\"z\":8000,\"width\":310.8532423208191,\"height\":170.78498293515358,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Y\":[{\"queryRef\":\"_Measures.Count Failed Leads\"}],\"Category\":[{\"queryRef\":\"Leadsengine dbo_FailedLeads.ProductId\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"ProductId\"},\"Name\":\"Leadsengine dbo_FailedLeads.ProductId\",\"NativeReferenceName\":\"ProductId\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"},\"Name\":\"_Measures.Count Failed Leads\",\"NativeReferenceName\":\"Count Failed Leads\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"maxMarginFactor\":{\"expr\":{\"Literal\":{\"Value\":\"50L\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Failed Leads by Product Id'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 170.78,
+          "width": 310.85,
+          "x": 969.42,
+          "y": 51.60,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"c0d0ea33b212454d4647\",\"layouts\":[{\"id\":0,\"position\":{\"x\":446.0068259385666,\"y\":224.2320819112628,\"z\":7000,\"width\":833.6518771331058,\"height\":170.17064846416383,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Date.Month\",\"active\":true}],\"Y\":[{\"queryRef\":\"_Measures.Count Failed Leads\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Month\"},\"Name\":\"Date.Month\",\"NativeReferenceName\":\"Month\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"},\"Name\":\"_Measures.Count Failed Leads\",\"NativeReferenceName\":\"Count Failed Leads\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Failed Leads by Month'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 170.17,
+          "width": 833.65,
+          "x": 446.01,
+          "y": 224.23,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"ddffee1e9c5dc4fd0edd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":706.4846416382253,\"y\":51.60409556313993,\"z\":10000,\"width\":260,\"height\":170,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Y\":[{\"queryRef\":\"_Measures.Count Failed Leads\"}],\"Category\":[{\"queryRef\":\"Leadsengine dbo_FailedLeads.SalesOrganization\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"SalesOrganization\"},\"Name\":\"Leadsengine dbo_FailedLeads.SalesOrganization\",\"NativeReferenceName\":\"SalesOrganization\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"},\"Name\":\"_Measures.Count Failed Leads\",\"NativeReferenceName\":\"Count Failed Leads\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"end\":{\"expr\":{\"Literal\":{\"Value\":\"1000D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Failed Leads by Sales Organization'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 170.00,
+          "width": 260.00,
+          "x": 706.48,
+          "y": 51.60,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"de1331141f11024c4498\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":232.83276450511946,\"z\":12000,\"width\":223.0034129692833,\"height\":53.44709897610922,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Leadsengine dbo_FailedLeads.LeadName\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"LeadName\"},\"Name\":\"Leadsengine dbo_FailedLeads.LeadName\",\"NativeReferenceName\":\"LeadName\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"items\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 53.45,
+          "width": 223.00,
+          "x": 0.00,
+          "y": 232.83,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"ebe805d428339b3b3baf\",\"layouts\":[{\"id\":0,\"position\":{\"x\":234.6757679180887,\"y\":220.54607508532422,\"z\":4000,\"width\":196.58703071672355,\"height\":86.62116040955631,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"kpi\",\"projections\":{\"TrendLine\":[{\"queryRef\":\"Date.Year\"}],\"Indicator\":[{\"queryRef\":\"_Measures.Count Failed Leads\"}],\"Goal\":[{\"queryRef\":\"_Measures.Count Leads PY\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Year\"},\"Name\":\"Date.Year\",\"NativeReferenceName\":\"Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Failed Leads\"},\"Name\":\"_Measures.Count Failed Leads\",\"NativeReferenceName\":\"Count Failed Leads\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Count Leads PY\"},\"Name\":\"_Measures.Count Leads PY\",\"NativeReferenceName\":\"Count Leads PY\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"status\":[{\"properties\":{\"badColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1AAB40'\"}}}}},\"goodColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D64554'\"}}}}}}}],\"goals\":[{\"properties\":{\"goalText\":{\"expr\":{\"Literal\":{\"Value\":\"'Previous Period'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"goalFontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"indicator\":[{\"properties\":{\"showIcon\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"22D\"}}}}}],\"trendline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Failed Leads vs PP'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 86.62,
+          "width": 196.59,
+          "x": 234.68,
+          "y": 220.55,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"efbc2a69721a476c0b1a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":164.64163822525597,\"z\":13000,\"width\":223.0034129692833,\"height\":68.19112627986348,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Leadsengine dbo_FailedLeads.Division\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Division\"},\"Name\":\"Leadsengine dbo_FailedLeads.Division\",\"NativeReferenceName\":\"Division\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"items\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Company'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 68.19,
+          "width": 223.00,
+          "x": 0.00,
+          "y": 164.64,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"fd8232d4c398b35b2ec7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":283.20819112627987,\"z\":14000,\"width\":223.0034129692833,\"height\":54.67576791808874,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Leadsengine dbo_FailedLeads.BusinessLine\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Leadsengine dbo_FailedLeads\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"BusinessLine\"},\"Name\":\"Leadsengine dbo_FailedLeads.BusinessLine\",\"NativeReferenceName\":\"BusinessLine\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"items\":[{\"properties\":{\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 54.68,
+          "width": 223.00,
+          "x": 0.00,
+          "y": 283.21,
+          "z": 14000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "MyTheme2382214263346092.json"
+}

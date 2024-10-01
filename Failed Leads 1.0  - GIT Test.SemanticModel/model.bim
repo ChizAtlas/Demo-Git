@@ -1,0 +1,924 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.130.754.0 (24.06)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Leadsengine dbo_FailedLeads\",\"_Measures\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "leadsengine_dbo_failedleads.t_updateddatelog": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Leadsengine dbo_FailedLeads",
+                    "ConceptualProperty": "T_UpdatedDateLOG"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "LOG Date": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "b669de7e-076a-4724-8a62-b443eaa2a9e3",
+        "fromColumn": "T_UpdatedDateLOG",
+        "fromTable": "Leadsengine dbo_FailedLeads",
+        "toColumn": "Date",
+        "toTable": "Date"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Leadsengine dbo_FailedLeads",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "LeadId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9e389ca0-dc87-4da4-b033-ce424da86713",
+            "sourceColumn": "LeadId",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SapAccountId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7fca95e4-5dfa-4790-8674-726d6a6725bb",
+            "sourceColumn": "SapAccountId",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SapContactId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f7e6d773-0b8c-4f54-bd95-af112815c4ba",
+            "sourceColumn": "SapContactId",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "LeadName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dbf7b253-bbf6-4562-9885-3dcccce028d2",
+            "sourceColumn": "LeadName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "AccountId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "438cec13-a7c9-405b-90d0-b997a8abc32a",
+            "sourceColumn": "AccountId",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ContactId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "66b726f4-0978-495d-8003-10fae9baaffa",
+            "sourceColumn": "ContactId",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Company",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f554d183-5fd2-4080-b4d6-392e0b2c81b5",
+            "sourceColumn": "Company",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ContactFirstName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dbd5097c-ca56-4138-bb2d-2e5b6a418407",
+            "sourceColumn": "ContactFirstName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ContactLastName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "20248a4f-bae5-4e06-9b59-ee464d1712a1",
+            "sourceColumn": "ContactLastName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CampaignId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3e390a7b-e66c-4ed7-9b34-03f075b63fab",
+            "sourceColumn": "CampaignId",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SalesOrganization",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "345f0102-2f65-4583-aaab-8e0b09bef28a",
+            "sourceColumn": "SalesOrganization",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Division",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2434cbee-2819-408f-b2bd-8512a750a000",
+            "sourceColumn": "Division",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "WebPage",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ed37c557-1dfb-48c5-9e7a-90938e9aa481",
+            "sourceColumn": "WebPage",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SourceSystemId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "03499f9f-65ff-447b-9cea-1695bedf26ca",
+            "sourceColumn": "SourceSystemId",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SourceSystem",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3b040cce-2d57-4651-9c4c-f987931f3f46",
+            "sourceColumn": "SourceSystem",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Note",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4b111a28-817b-43ff-af85-6ff4b2fe989a",
+            "sourceColumn": "Note",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CountryRegion",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "74f4405a-08c6-469d-86cc-b9fb3abe1c46",
+            "sourceColumn": "CountryRegion",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CreatedDate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "9ed7c5ff-0820-4950-81e4-1d1a524e9515",
+            "sourceColumn": "CreatedDate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "T_UpdatedDateLD",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "2bddbcdb-d626-46e4-a120-1bb0d2e957c0",
+            "sourceColumn": "T_UpdatedDateLD",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ErrorMessage",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e7925d18-4996-49f1-8436-dc96465f4c42",
+            "sourceColumn": "ErrorMessage",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Successful",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "76c9e8d7-2de4-4c9f-bedf-032f14b951cf",
+            "sourceColumn": "Successful",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "T_UpdatedDateLOG",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "9f0456cf-02ae-48df-96af-340887ab7e84",
+            "sourceColumn": "T_UpdatedDateLOG",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SourceError",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8db8d6c0-4f71-4b39-8d8f-2b6885b84dfa",
+            "sourceColumn": "SourceError",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ProductId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2b5d65f4-976d-4e4b-8e98-bac79b5c1204",
+            "sourceColumn": "ProductId",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Quantity",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "980029f3-b460-4674-8fd2-39979e4e1497",
+            "sourceColumn": "Quantity",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "T_UpdatedDatePRD",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "89952fcc-11bd-4217-918a-f1331f47a74e",
+            "sourceColumn": "T_UpdatedDatePRD",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SerialNumber",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d3b52d9c-3c0e-4f78-ba32-e6c85feb8be5",
+            "sourceColumn": "SerialNumber",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "BusinessLine",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4d6e3c52-52b2-4448-9df4-1cda69bc3a6a",
+            "sourceColumn": "BusinessLine",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Mobile",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b25dd03b-95a0-4d0c-a399-a12fe412b2b7",
+            "sourceColumn": "Mobile",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Email",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b93a67e3-6944-430d-9457-e636abdf9aee",
+            "sourceColumn": "Email",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Phone",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cb8ea7ab-84b1-4b30-bf27-69321041570c",
+            "sourceColumn": "Phone",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "39c43b01-ebf1-4081-9558-8db042cb0e2e",
+        "partitions": [
+          {
+            "name": "Leadsengine dbo_FailedLeads",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"ac-sql-p-app-10001364-dap.database.windows.net\", \"ac-sdb-p-app-10001364-adapt-datahub\", [Query=\"SELECT #(lf)       ld.[LeadId]#(lf)      ,ld.[Mobile]#(lf)      ,ld.[Email]#(lf)      ,ld.[Phone]#(lf)      ,ld.[BusinessLine]#(lf)      ,ld.[T_UpdatedDate] as T_UpdatedDateLD#(lf)      ,ld.[SapAccountId]#(lf)      ,ld.[SapContactId]#(lf)      ,ld.[LeadName]#(lf)      ,ld.[AccountId]#(lf)      ,ld.[ContactId]#(lf)      ,ld.[Company]#(lf)      ,ld.[ContactFirstName]#(lf)      ,ld.[ContactLastName]#(lf)      ,ld.[CampaignId]#(lf)      ,ld.[SalesOrganization]#(lf)      ,ld.[Division]#(lf)      ,ld.[WebPage]#(lf)      ,ld.[SourceSystemId]#(lf)      ,ld.[SourceSystem]#(lf)      ,ld.[Note]#(lf)      ,ld.[CountryRegion]#(lf)      ,ld.[CreatedDate]#(lf)      ,lg.[ErrorMessage]#(lf)      ,lg.[Successful]#(lf)      ,lg.[T_UpdatedDate] as T_UpdatedDateLOG#(lf)      ,lg.[SourceError]#(lf)      ,prd.[ProductId]#(lf)      ,prd.[Quantity]#(lf)      ,prd.[T_UpdatedDate] as T_UpdatedDatePRD#(lf)      ,rprd.[SerialNumber] #(lf)FROM Leadsengine.dbo_Leads ld#(lf)LEFT JOIN Leadsengine.dbo_Logging lg#(lf)ON ld.SourceSystemId = lg.SourceSystemId#(lf)AND ld.SourceSystem = ld.SourceSystem#(lf)LEFT JOIN Leadsengine.dbo_Products prd#(lf)ON ld.SourceSystemId = prd.SourceSystemId#(lf)AND ld.SourceSystem = prd.SourceSystem#(lf)LEFT JOIN Leadsengine.dbo_RegisteredProducts rprd#(lf)ON ld.SourceSystemId = rprd.SourceSystemId#(lf)AND ld.SourceSystem = rprd.SourceSystem#(lf)WHERE lg.Successful = 0#(lf)ORDER BY lg.T_UpdatedDate asc\"]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"T_UpdatedDateLOG\", type date}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "_Measures",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Measures",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "ROW(\"KPI\", BLANK())",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "cf587eee-254c-4044-95d2-eb4313c6cbd1",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "8550ecd7-8252-45df-81e5-e0baeade77d3",
+        "measures": [
+          {
+            "name": "Count",
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "displayFolder": "N.Distinct",
+            "expression": [
+              "",
+              "COUNTROWS('Leadsengine dbo_FailedLeads')"
+            ],
+            "formatString": "0",
+            "lineageTag": "07b0a2f3-796b-4afd-a488-c53817dba58d"
+          },
+          {
+            "name": "Count Failed Leads(Distinct)",
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "displayFolder": "Distinct",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    COUNTROWS(DISTINCT('Leadsengine dbo_FailedLeads'[LeadName])",
+              "    )",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "747ef84b-54fc-448e-9357-51c31fa3d80d"
+          },
+          {
+            "name": "Count Leads PY(Distinct)",
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "displayFolder": "Distinct",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [Count Failed Leads(Distinct)],",
+              "    SAMEPERIODLASTYEAR('Date'[Date])",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "c8140921-9d63-46ba-a46b-9726fd4c23dc"
+          },
+          {
+            "name": "Failed Leads ALL(Distinct)",
+            "displayFolder": "Distinct",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    COUNTROWS(DISTINCT('Leadsengine dbo_FailedLeads'[LeadName])),",
+              "    REMOVEFILTERS('Date')",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "d0b0b8f3-c376-43e5-921c-f026bece97e0"
+          },
+          {
+            "name": "Count Failed Leads",
+            "displayFolder": "N.Distinct",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    COUNTROWS('Leadsengine dbo_FailedLeads'",
+              "    )",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "c6aaa57a-8a6f-4a55-9477-f162ca156546"
+          },
+          {
+            "name": "Count Leads PY",
+            "displayFolder": "N.Distinct",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [Count Failed Leads],",
+              "    SAMEPERIODLASTYEAR('Date'[Date])",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "04f1881d-9832-4521-b789-d9e82d7717dd"
+          },
+          {
+            "name": "Failed Leads ALL",
+            "displayFolder": "N.Distinct",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    COUNTROWS('Leadsengine dbo_FailedLeads'),",
+              "    REMOVEFILTERS('Date')",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "fb67b7f3-4f4c-4690-9190-1f49355ac499"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "_Measures",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(Source,{\"Column1\"})",
+                "in",
+                "    #\"Removed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Date",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "d2b3c73e81ff4904b7303e153322497b"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "isDataTypeInferred": true,
+            "isKey": true,
+            "isNameInferred": true,
+            "lineageTag": "335d4df4-c232-45ff-b7d2-7e5e39392a98",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "fc1b7eb5-8c04-4617-8233-ee940c783a3b",
+            "sourceColumn": "[YEAR]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "575efb77-5e15-44f3-88db-54efcd0ce11e",
+            "sortByColumn": "Month Number",
+            "sourceColumn": "[Month]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Month Number",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "b2affdcd-d9d2-47ad-b89b-478546938afe",
+            "sourceColumn": "[Month Number]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "dataCategory": "Time",
+        "lineageTag": "e96dc8a0-95b8-4f22-b4ff-90904ad31b34",
+        "partitions": [
+          {
+            "name": "Date",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "",
+                "ADDCOLUMNS(",
+                "    FILTER(",
+                "        CALENDARAUTO(), ",
+                "        AND(",
+                "            YEAR([Date]) >= YEAR(MIN('Leadsengine dbo_FailedLeads'[T_UpdatedDateLOG])) , ",
+                "            YEAR([Date]) <= YEAR(MAX('Leadsengine dbo_FailedLeads'[T_UpdatedDateLOG]))",
+                "        )",
+                "    ),",
+                "    \"Year\" , YEAR([Date]),",
+                "    \"Month\", FORMAT([Date], \"mmm\") , ",
+                "    \"Month Number\" , MONTH([Date])",
+                ")"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

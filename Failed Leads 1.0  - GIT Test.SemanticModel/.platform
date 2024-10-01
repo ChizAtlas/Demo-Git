@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Failed Leads 1.0  - GIT Test"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5adfd708-5c13-491b-abdf-269120745963"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Failed Leads 1.0  - GIT Test"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e92e5959-39a5-4389-b29c-31dfe89f4212"
+  }
+}
