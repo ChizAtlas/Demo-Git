@@ -1,0 +1,554 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 553.29259001510354,
+        "y": 357.18888722494029
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 380.05828534088261,
+            "y": 1371.87988632532
+          },
+          "nodeIndex": "Date",
+          "nodeLineageTag": "b13ccec3-a613-4540-817b-172e597ef3ea",
+          "size": {
+            "height": 255.93839841722979,
+            "width": 240.63233966076064
+          },
+          "zIndex": 34
+        },
+        {
+          "location": {
+            "x": 1312.3889934573747,
+            "y": 725.63978439948255
+          },
+          "nodeIndex": "DIM_Accounts",
+          "nodeLineageTag": "52e29e4d-72a9-45c8-98a6-502cbde15a03",
+          "size": {
+            "height": 221.555103897472,
+            "width": 256.30792812065852
+          },
+          "zIndex": 33
+        },
+        {
+          "location": {
+            "x": 376.94536853591023,
+            "y": 373.29943616552475
+          },
+          "nodeIndex": "DIM_BusinessLine",
+          "nodeLineageTag": "15ef78af-40fa-4eca-b8d0-8e960e2e0579",
+          "size": {
+            "height": 303.62433225323861,
+            "width": 250.47104437878329
+          },
+          "zIndex": 31
+        },
+        {
+          "location": {
+            "x": 387.26508772588664,
+            "y": 1046.5882740221523
+          },
+          "nodeIndex": "DIM_Campaigns",
+          "nodeLineageTag": "ef7aa65e-9d0e-4886-82ee-4e6c6cd4c943",
+          "size": {
+            "height": 234.98704192961588,
+            "width": 234
+          },
+          "zIndex": 37
+        },
+        {
+          "location": {
+            "x": 386.00386410414916,
+            "y": 821.826692552219
+          },
+          "nodeIndex": "DIM_Owner",
+          "nodeLineageTag": "dffd2072-65a2-4bfe-a97d-d1c0ac6c26f8",
+          "size": {
+            "height": 207.8599999999999,
+            "width": 234
+          },
+          "zIndex": 24
+        },
+        {
+          "location": {
+            "x": 1320.5440854872768,
+            "y": 535.73253821748517
+          },
+          "nodeIndex": "DIM_SalesOrg",
+          "nodeLineageTag": "a3a98900-0095-462e-b428-99ead2914972",
+          "size": {
+            "height": 163.7940379645637,
+            "width": 249.52549152130541
+          },
+          "zIndex": 39
+        },
+        {
+          "location": {
+            "x": 378.6071158389995,
+            "y": 1743.5198757032663
+          },
+          "nodeIndex": "DIM_Source",
+          "nodeLineageTag": "4d1ee893-caf5-478a-816c-9a0cfe73871c",
+          "size": {
+            "height": 154.38118621841727,
+            "width": 234
+          },
+          "zIndex": 19
+        },
+        {
+          "location": {
+            "x": 1182.557800354017,
+            "y": 1023.8518391116249
+          },
+          "nodeIndex": "FACT_Activities",
+          "nodeLineageTag": "2e402541-7830-4cf0-a528-400355018714",
+          "size": {
+            "height": 198.5613053566658,
+            "width": 254.44893411060343
+          },
+          "zIndex": 36
+        },
+        {
+          "location": {
+            "x": 777.85861978811147,
+            "y": 687.37250956121886
+          },
+          "nodeIndex": "FACT_ALL",
+          "nodeLineageTag": "ef2d0b40-5556-4305-810a-264e336dfad4",
+          "size": {
+            "height": 1000,
+            "width": 234
+          },
+          "zIndex": 35
+        },
+        {
+          "location": {
+            "x": 1184.3831605470468,
+            "y": 1814.0908515048911
+          },
+          "nodeIndex": "FACT_Leads",
+          "nodeLineageTag": "9bb0fc20-f4d3-4734-98a7-e8d0c1b62a23",
+          "size": {
+            "height": 198.69379092933605,
+            "width": 267.46189218098766
+          },
+          "zIndex": 28
+        },
+        {
+          "location": {
+            "x": 1550.003865256482,
+            "y": 1820.9927188855577
+          },
+          "nodeIndex": "FACT_LeadsNotes",
+          "nodeLineageTag": "40d4a794-f03c-49c9-8d39-3d24668fb991",
+          "size": {
+            "height": 176,
+            "width": 272.13595304937371
+          },
+          "zIndex": 27
+        },
+        {
+          "location": {
+            "x": 1181.1705287105717,
+            "y": 1272.0618529858978
+          },
+          "nodeIndex": "FACT_Opportunities",
+          "nodeLineageTag": "a3fa2cea-5e9d-41a4-8b16-3149ffb5a7c1",
+          "size": {
+            "height": 214.06536238558851,
+            "width": 258.21773428698566
+          },
+          "zIndex": 26
+        },
+        {
+          "location": {
+            "x": 1528.6215115180494,
+            "y": 1272.7603707675776
+          },
+          "nodeIndex": "FACT_OpportunitiesNotes",
+          "nodeLineageTag": "ddb5f216-936f-4193-878a-844a9c8d648d",
+          "size": {
+            "height": 163.57177932762602,
+            "width": 268.51724981158372
+          },
+          "zIndex": 25
+        },
+        {
+          "location": {
+            "x": 1184.4823961649481,
+            "y": 1523.037229918672
+          },
+          "nodeIndex": "FACT_SalesQuotes",
+          "nodeLineageTag": "bf7d99a2-ddb8-465a-a331-d737cf093abe",
+          "size": {
+            "height": 211.51642168811713,
+            "width": 267.46189218098766
+          },
+          "zIndex": 29
+        },
+        {
+          "location": {
+            "x": 1538.4434039459732,
+            "y": 1532.1110750037165
+          },
+          "nodeIndex": "FACT_SalesQuotesNotes",
+          "nodeLineageTag": "e2237886-b0f6-4b6d-ac54-ed968b17e73e",
+          "size": {
+            "height": 166.35110366730237,
+            "width": 260.52935864304254
+          },
+          "zIndex": 30
+        },
+        {
+          "location": {
+            "x": 1315.349327801488,
+            "y": 361.97824693602956
+          },
+          "nodeIndex": "RLS Table",
+          "nodeLineageTag": "2a61d1ab-673d-4dc7-81ad-0f2237d5c20e",
+          "size": {
+            "height": 128,
+            "width": 260.52935864304254
+          },
+          "zIndex": 38
+        },
+        {
+          "location": {
+            "x": 1888.5477884381098,
+            "y": 655.45131406822293
+          },
+          "nodeIndex": "FACT_Attachments",
+          "nodeLineageTag": "d338e6c3-f322-4469-b25a-49c400e98c35",
+          "size": {
+            "height": 1000,
+            "width": 234
+          },
+          "zIndex": 32
+        },
+        {
+          "location": {
+            "x": 3013.0278579961114,
+            "y": 706.63575428693468
+          },
+          "nodeIndex": "BridgeAttachmentsActivities",
+          "nodeLineageTag": "bfe535c1-b021-43e1-81b0-60f8e14e03f8",
+          "size": {
+            "height": 380.46261796617273,
+            "width": 383.0537021340574
+          },
+          "zIndex": 20
+        },
+        {
+          "location": {
+            "x": 3017.0708541800718,
+            "y": 1123.0732405941596
+          },
+          "nodeIndex": "BridgeAttachmentsCustomers",
+          "nodeLineageTag": "8d1407b5-06c9-4825-ba3d-21b128340d84",
+          "size": {
+            "height": 377.579079259173,
+            "width": 356.69828372407119
+          },
+          "zIndex": 22
+        },
+        {
+          "location": {
+            "x": 3523.79821896623,
+            "y": 1851.2844397631884
+          },
+          "nodeIndex": "BridgeAttachmentsLeads",
+          "nodeLineageTag": "d7d1d03a-3687-4f87-bbe8-0b325133fd21",
+          "size": {
+            "height": 300,
+            "width": 348.75816005011484
+          },
+          "zIndex": 12
+        },
+        {
+          "location": {
+            "x": 3418.07175724835,
+            "y": 0
+          },
+          "nodeIndex": "BridgeAttachmentsOpportunities",
+          "nodeLineageTag": "26b9b104-3ed9-4c1b-83ac-daabacb44f2e",
+          "size": {
+            "height": 300,
+            "width": 414.71112559615858
+          },
+          "zIndex": 13
+        },
+        {
+          "location": {
+            "x": 3417.898228648452,
+            "y": 596.18098386890858
+          },
+          "nodeIndex": "BridgeAttachmentsSalesQuotes",
+          "nodeLineageTag": "23a283ff-5c84-419a-8057-c6948aeafd9f",
+          "size": {
+            "height": 300,
+            "width": 410.75394766339559
+          },
+          "zIndex": 14
+        },
+        {
+          "location": {
+            "x": 3904.97618926454,
+            "y": 1305.109840449883
+          },
+          "nodeIndex": "STG_Attachments_1",
+          "nodeLineageTag": "78f04f80-b1c7-457a-9488-2caa641791eb",
+          "size": {
+            "height": 261.26467932152104,
+            "width": 294.67672830235961
+          },
+          "zIndex": 15
+        },
+        {
+          "location": {
+            "x": 3034.566434090937,
+            "y": 390.96262628850309
+          },
+          "nodeIndex": "STG_Attachments_ALL",
+          "nodeLineageTag": "eab5df39-47b6-45d2-abe2-4b8807c014b9",
+          "size": {
+            "height": 300,
+            "width": 343.48192280643161
+          },
+          "zIndex": 21
+        },
+        {
+          "location": {
+            "x": 3523.6798813185492,
+            "y": 1235.4440822668098
+          },
+          "nodeIndex": "STG_Attachments_EU",
+          "nodeLineageTag": "d19e8590-2626-4a31-aac2-0f747147cf0c",
+          "size": {
+            "height": 272,
+            "width": 298.63390623512214
+          },
+          "zIndex": 16
+        },
+        {
+          "location": {
+            "x": 3522.9112425842677,
+            "y": 1539.2581724784338
+          },
+          "nodeIndex": "STG_Attachments_NA",
+          "nodeLineageTag": "b83f181f-fa55-476c-946a-0eee3a3f441f",
+          "size": {
+            "height": 269.555103897472,
+            "width": 297.31484692420145
+          },
+          "zIndex": 17
+        },
+        {
+          "location": {
+            "x": 3419.2347176014778,
+            "y": 290.05462504697618
+          },
+          "nodeIndex": "STG_Attachments_Others",
+          "nodeLineageTag": "8999048b-f2ba-49c2-94b0-d7d7721bee8d",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 18
+        },
+        {
+          "location": {
+            "x": 3547.901585615522,
+            "y": 343.223577444362
+          },
+          "nodeIndex": "STG BridgeAccountsSalesOrganizations",
+          "nodeLineageTag": "ff37fcd4-15a0-4835-a791-75fedec4c4b7",
+          "size": {
+            "height": 369.64478630194253,
+            "width": 361.94875315932359
+          },
+          "zIndex": 11
+        },
+        {
+          "location": {
+            "x": 3495.86846302473,
+            "y": 925.6422198815942
+          },
+          "nodeIndex": "STG DIM Leads",
+          "nodeLineageTag": "21fadb91-aba5-4e52-bf69-c927dce78e84",
+          "size": {
+            "height": 329.84552847342275,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 3929.0961053918436,
+            "y": 925.6422198815942
+          },
+          "nodeIndex": "STG DIM Opportunities",
+          "nodeLineageTag": "9023523d-5218-4ac9-9f36-967592a4fc7f",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 3872.70754903099,
+            "y": 925.6422198815942
+          },
+          "nodeIndex": "STG DIM SalesQuotes",
+          "nodeLineageTag": "a5c981e1-1e22-4731-b8e9-77fd90431d92",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 9
+        },
+        {
+          "location": {
+            "x": 3872.70754903099,
+            "y": 939.6422198815942
+          },
+          "nodeIndex": "STG DIM Activities",
+          "nodeLineageTag": "5a3bd2cc-29c9-471e-b06a-ab8c23d3611c",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 10
+        },
+        {
+          "location": {
+            "x": 4201.475841741124,
+            "y": 192.23932872450354
+          },
+          "nodeIndex": "STG DIM Campaign",
+          "nodeLineageTag": "c51f5518-7b7e-4cf3-8cdd-beb036cc11ed",
+          "size": {
+            "height": 579.61698303803087,
+            "width": 234
+          },
+          "zIndex": 23
+        },
+        {
+          "location": {
+            "x": 1531.8665149997141,
+            "y": 1028.9350522639311
+          },
+          "nodeIndex": "FACT_ActivitiesNotes",
+          "nodeLineageTag": "2e8ca69d-683b-4eb0-b708-fd160df66340",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 4108.5304732052136,
+            "y": 996.25122209431129
+          },
+          "nodeIndex": "OLD ID'S For Attachments EE",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 2794.9845507902733,
+            "y": 288.8157182962413
+          },
+          "nodeIndex": "Campaings_Tasks (2)",
+          "nodeLineageTag": "d5feae9a-bd48-486d-ac02-26befe9fafca",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 3195.8984306819516,
+            "y": 99.7940379645637
+          },
+          "nodeIndex": "Campaings_Tasks (3)",
+          "nodeLineageTag": "131e34d1-99cf-4fcf-a7e5-783bf7614f84",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 5281.4265844068268,
+            "y": 60
+          },
+          "nodeIndex": "FACT_LeadsNotes (2)",
+          "nodeLineageTag": "2aa1a916-dec5-4789-82a3-cc1e6275092d",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 4108.5304732052136,
+            "y": 0
+          },
+          "nodeIndex": "STG DIM Activities Merged",
+          "nodeLineageTag": "8b655485-d465-4a41-8975-25df1d9dbd48",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 3275.0512237414787,
+            "y": 778.95763566388655
+          },
+          "nodeIndex": "STG_Accounts_SalesOrgs",
+          "nodeLineageTag": "f7a475b9-15ec-4776-8ed5-2042133455c8",
+          "size": {
+            "height": 296.25338762154342,
+            "width": 234
+          },
+          "zIndex": 40
+        },
+        {
+          "location": {
+            "x": 5188.4812158709165,
+            "y": 1056.2512220943113
+          },
+          "nodeIndex": "Account_Sales_Data",
+          "nodeLineageTag": "28c182bd-bd22-4685-83c0-0b58c4422892",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 42.834479311123694,
+      "pinKeyFieldsToTop": true,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

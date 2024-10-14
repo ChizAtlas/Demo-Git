@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "C4C Historical Dashboard24-7 - Copy"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "911af766-e266-4d4d-af14-b0d21b7002ef"
+  }
+}

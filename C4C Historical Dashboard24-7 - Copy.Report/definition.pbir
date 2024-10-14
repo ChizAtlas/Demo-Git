@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../C4C Historical Dashboard24-7 - Copy.SemanticModel"
+    },
+    "byConnection": null
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "C4C Historical Dashboard24-7 - Copy"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c316649c-2541-4139-9dc9-81df2d583e53"
+  }
+}
